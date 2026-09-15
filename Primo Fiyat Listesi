@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143a2c">
+  <title>PRİMO Kantin İşletmeleri | Fiyat Listesi</title>
+  <style>
+    :root { --ink: #19352b; --accent: #d8a72d; --paper: #fffdf7; --muted: #6b746e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #edf1ed; color: var(--ink); font-family: Arial, Helvetica, sans-serif; }
+    main { max-width: 720px; min-height: 100vh; margin: auto; padding: 28px 18px 40px; background: var(--paper); }
+    header { padding: 24px 18px 22px; text-align: center; border-radius: 18px; background: var(--ink); color: white; }
+    h1 { margin: 0; font-size: clamp(1.7rem, 7vw, 2.4rem); letter-spacing: .04em; }
+    header p { margin: 9px 0 0; color: #f1d98d; font-size: 1rem; }
+    .note { margin: 18px 3px 26px; text-align: center; color: var(--muted); font-size: .92rem; }
+    section { margin-top: 28px; }
+    h2 { margin: 0 0 9px; padding-bottom: 8px; color: var(--ink); border-bottom: 3px solid var(--accent); font-size: 1.24rem; }
+    ul { list-style: none; padding: 0; margin: 0; }
+    li { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: baseline; padding: 12px 3px; border-bottom: 1px solid #e5e5df; line-height: 1.35; }
+    .price { color: #8b5c00; font-weight: 700; white-space: nowrap; }
+    .detail { display: block; margin-top: 3px; color: var(--muted); font-size: .86rem; }
+    footer { margin-top: 34px; text-align: center; color: var(--muted); font-size: .8rem; }
+    @media print { body { background: white; } main { max-width: none; padding: 0; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>PRİMO KANTİN İŞLETMELERİ</h1>
+      <p>Güncel Fiyat Listesi</p>
+    </header>
+    <p class="note">Fiyatlarımız Türk lirası (₺) cinsindendir.</p>
+
+    <section>
+      <h2>Sıcak İçecekler</h2>
+      <ul>
+        <li><span>Çay</span><span class="price">₺20</span></li>
+        <li><span>Türk Kahvesi</span><span class="price">₺60</span></li>
+        <li><span>Nescafe <span class="detail">3'ü 1 arada, sütlü köpüklü</span></span><span class="price">₺30</span></li>
+        <li><span>Nescafe <span class="detail">Latte, mocha, sıcak çikolata</span></span><span class="price">₺45</span></li>
+        <li><span>Ihlamur</span><span class="price">₺60</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Çikolata &amp; Bisküvi</h2>
+      <ul>
+        <li><span>Laviva Çikolata</span><span class="price">₺40</span></li>
+        <li><span>Tadelle Çikolata</span><span class="price">₺50</span></li>
+        <li><span>Browni Çikolata</span><span class="price">₺40</span></li>
+        <li><span>Ülker Gofret Çikolata</span><span class="price">₺35</span></li>
+        <li><span>Ülker Beyaz Çikolatalı Gofret</span><span class="price">₺40</span></li>
+        <li><span>Probis Bisküvi</span><span class="price">₺50</span></li>
+        <li><span>Albeni Bisküvi</span><span class="price">₺45</span></li>
+        <li><span>Burçak Bisküvi</span><span class="price">₺55</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kek &amp; Atıştırmalık</h2>
+      <ul>
+        <li><span>Olala Kek</span><span class="price">₺55</span></li>
+        <li><span>Ülker Çikolatalı Kek</span><span class="price">₺30</span></li>
+        <li><span>Ülker Magma Kek</span><span class="price">₺45</span></li>
+        <li><span>Ülker Çubuk Kraker</span><span class="price">₺30</span></li>
+        <li><span>Ülker Kraker Çeşitleri</span><span class="price">₺40</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Soğuk İçecekler</h2>
+      <ul>
+        <li><span>Sprite</span><span class="price">₺70</span></li>
+        <li><span>Coca-Cola</span><span class="price">₺70</span></li>
+        <li><span>Cappy Portakallı</span><span class="price">₺60</span></li>
+        <li><span>Meyveli Soda Çeşitleri</span><span class="price">₺30</span></li>
+        <li><span>Sade Soda</span><span class="price">₺25</span></li>
+        <li><span>Ayran</span><span class="price">₺25</span></li>
+        <li><span>Su</span><span class="price">₺20</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Yiyecekler</h2>
+      <ul>
+        <li><span>Patso</span><span class="price">₺100</span></li>
+        <li><span>Sucuk Ekmek</span><span class="price">₺130</span></li>
+        <li><span>Karışık Tost</span><span class="price">₺90</span></li>
+        <li><span>Kaşarlı Tost</span><span class="price">₺80</span></li>
+        <li><span>Sandviç</span><span class="price">₺60</span></li>
+        <li><span>Sosis Sepeti <span class="detail">8 adet sosis, bol patates</span></span><span class="price">₺120</span></li>
+        <li><span>Tavuk Sepeti <span class="detail">6 adet tavuk parçası, bol patates</span></span><span class="price">₺130</span></li>
+        <li><span>Karışık Sepet <span class="detail">3 adet sosis, 3 adet tavuk parçası, bol patates</span></span><span class="price">₺130</span></li>
+        <li><span>Patates Sepeti</span><span class="price">₺80</span></li>
+        <li><span>Cheese Burger <span class="detail">100 g dana köfte, çedar peyniri, hamburger sos, patates</span></span><span class="price">₺250</span></li>
+      </ul>
+    </section>
+    <footer>PRİMO Kantin İşletmeleri</footer>
+  </main>
+</body>
+</html>
